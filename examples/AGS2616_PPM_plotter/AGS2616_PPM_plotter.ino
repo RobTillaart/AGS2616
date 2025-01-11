@@ -33,7 +33,7 @@ void setup()
   //  note: pre-heating skipped
 
   //  HEADER
-  Serial.println("PPM CO\tAVERAGE");
+  Serial.println("PPM H2\tAVERAGE");
   //  start value for average
   delay(2000);
   average = AGS.readPPM();
